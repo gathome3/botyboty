@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const prefix = 'g'
 
 client.on('ready', () => {
-  client.user.setGame(`Nothing`)
+  client.user.setGame(`by gathome`)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
